@@ -10,7 +10,6 @@ WPHAVE extends the WordPress block editor into a complete website workspace. It 
 - Requires WordPress: 7.0 or later
 - Requires PHP: 8.3 or later
 - Recommended database: MySQL 8.0 or MariaDB 10.6
-- Current release: 1.0.49
 - License: GPL-2.0-or-later
 
 ## Features
