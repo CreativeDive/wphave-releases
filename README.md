@@ -1,64 +1,104 @@
-# wphave
+# WPHAVE
 
-### A fast, flexible and professional page-building experience for Gutenberg – optimized for developers, designers and agencies.
+A unified system for building and managing WordPress websites with consistent design, workflows, performance, and control.
 
-- Contributors: [Martin Jost](https://github.com/CreativeDive)
-- Donate link: https://wphave.com
-- Tags: blocks, page builder, editor, design, layout, responsive, gutenberg
-- Requires at least: 6.9
-- Tested up to: 6.9
-- Requires PHP: 7.4
-- Stable tag: 1.0.0
-- License: [wphave Plugin License](LICENSE.md)
-- License URI: https://wphave.com/license
+WPHAVE extends the WordPress block editor into a complete website workspace. It combines visual page building, reusable design systems, content management, publishing workflows, site operations, and privacy-conscious growth tools in one modular plugin.
 
-### Description
+- Contributor: [Martin Jost](https://github.com/CreativeDive)
+- Website: [wphave.com](https://wphave.com)
+- Tags: blocks, page builder, site editor, design system, content management, performance
+- Requires WordPress: 7.0 or later
+- Requires PHP: 8.3 or later
+- Recommended database: MySQL 8.0 or MariaDB 10.6
+- Current release: 1.0.49
+- License: GPL-2.0-or-later
 
-Page builder for WordPress. Unlock the true potential of Gutenberg with wphave.
-wphave is a powerful Gutenberg-based page builder that enables you to create custom layouts and design systems with maximum control and performance – without relying on themes or shortcodes.
+## Features
 
-### Key features include:
+### Visual building and design systems
 
-- 🧱 Custom layout blocks with advanced design controls
-- 🎯 Global style presets and reusable configurations
-- ⚡ Ultra-fast editor performance (React-based, no bloat)
-- 💡 Perfect for building design systems and block libraries
-- 📱 Fully responsive editing with device-specific settings
-- 🔒 Pro Features for professionals (licensable)
+- Custom Gutenberg blocks for layouts, content, forms, navigation, and interactive elements
+- Responsive controls with device-specific values
+- Global styles, design tokens, reusable presets, and block style management
+- Patterns, site compositions, templates, and template parts
+- Advanced block controls and layer-based editing
+- A managed WPHAVE block theme for the complete building experience
 
-wphave gives you full control over the block editor experience – and is built with a clean, scalable and modular codebase.
+### Content and publishing
 
-### Installation
+- Custom content types, taxonomies, dynamic data, and content queries
+- Post, media, pattern, and navigation management
+- Editorial notes, content auditing, and collaboration features
+- SEO metadata, Schema.org output, Open Graph, redirects, and live search
+- Comments and WooCommerce integration
 
-1. Upload the plugin files to the `/wp-content/plugins/wphave` directory, or install via WordPress Admin.
-2. Activate the plugin through the 'Plugins' screen in WordPress.
-3. Start building inside the block editor!
+### Forms, audience, and analytics
 
-### Frequently Asked Questions
+- Form creation and submission management
+- Leads, subscribers, consent, and unsubscribe workflows
+- First-party analytics for content, conversions, journeys, technology, and real-time activity
+- Privacy-aware retention, export, deletion, and consent controls
 
-#### Is this plugin free?
-Yes – wphave comes with a fully functional free version. Pro features can be unlocked with a valid license.
+### Site operations
 
-#### Can I use the Pro version on local environments?
-Yes – local and staging sites can activate the license without counting towards your site limit.
+- Performance, optimization, and cache controls
+- Security, privacy, SMTP, diagnostics, Site Health, and request profiling
+- Font, icon, media, and custom-code management
+- Optional maintenance, popup, CTA, social bar, and other add-ons
+- Role-based access and a focused WPHAVE administration experience
 
-#### What happens if my license expires?
-You can continue using your existing design, but Pro features will be locked for editing until the license is renewed.
+### AI assistance
 
-#### Do I need a theme to use wphave?
-wphave is technically compatible with most WordPress themes, but we strongly recommend using it with the included [PANTHER Theme](https://github.com/CreativeDive/panther-block-theme). Third-party themes often introduce unpredictable styles, markup or layout constraints that can interfere with the builder's functionality and design precision.
+- Provider-based actions for text, media, planning, and site compositions
+- Website planning with sitemap, wireframe, style-guide, and section workflows
+- Context-aware actions with guarded server-side execution
 
-For the full experience and guaranteed compatibility, please use the PANTHER Theme.
+Some capabilities are included in the free baseline. Professional features require valid access.
 
-### Demo
+## Installation
 
-Test all the pro features at our [wphave live demo](https://playground.wordpress.net/?blueprint-url=https%3A%2F%2Fwphave.com%2Fwphave-blueprint.json)
+1. Download the current WPHAVE release ZIP.
+2. In WordPress Admin, open **Plugins → Add Plugin → Upload Plugin**.
+3. Upload the ZIP, install it, and activate WPHAVE.
+4. Open WPHAVE from the WordPress Admin menu.
+5. Follow the guided setup to install and activate the managed WPHAVE theme when you want the complete site-building experience.
 
-### Changelog
+WPHAVE never silently replaces or activates a theme. Theme setup and updates remain explicit user actions.
 
-The full changelog is available at:  
-https://wphave.com/changelog
+## Frequently asked questions
 
-### Upgrade Notice
+### Is WPHAVE free?
 
-1.0.0 This is the first public release of wphave. Pro features require an active license key.
+WPHAVE includes a functional free baseline. Professional capabilities, official services, activations, updates, and support are available through commercial plans.
+
+### Can I use WPHAVE on local and staging environments?
+
+Local development environments can use the supported local-license flow. Staging and production access follows the activation policy of the selected plan.
+
+### What happens when a paid license expires?
+
+Published frontend output remains available. Access to professional editing features requires valid signed access or an active, bounded grace period.
+
+### Does WPHAVE require its own theme?
+
+The WPHAVE app and compatible features remain available with third-party themes. The complete visual building and site-management experience is designed around the managed WPHAVE parent and child theme environment, which can be installed explicitly through the plugin.
+
+### Does WPHAVE send analytics data to an external service?
+
+The built-in analytics architecture is first-party and stores its data in WordPress. Features that use external providers are configured separately and remain subject to their own privacy requirements.
+
+## Demo
+
+Try WPHAVE directly in your browser with the [WordPress Playground demo](https://playground.wordpress.net/?blueprint-url=https%3A%2F%2Fwphave.com%2Fserver%2Fwphave-blueprint.json).
+
+The demo creates sample content and guides you from the familiar WordPress dashboard into the WPHAVE experience.
+
+## Changelog
+
+The public changelog is available at [wphave.com/changelog](https://wphave.com/changelog).
+
+## License
+
+WPHAVE plugin code is licensed under GPL-2.0-or-later. Commercial plans govern access to official professional services, activations, updates, and support; they do not restrict the rights granted by the GPL.
+
+See [wphave.com/license](https://wphave.com/license) for additional license and service information.
